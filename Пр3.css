@@ -1,0 +1,130 @@
+*{transition:.3s linear;}
+body {
+  margin: 0;
+  background: #F0F0F0;
+  font-family: Avantgarde;
+  color: #240152;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+@font-face {
+  font-family: 'OpenSans-Bold';
+  font-style: normal;
+  font-weight: 400;
+  /* Браузер сначала попробует найти шрифт локально */
+  src: url('OpenSans-Bold.ttf');
+}
+
+
+.container {flex: 1;}
+header {
+  padding: 20px;
+  margin-bottom: 20px;
+  background: #6F06CC;
+  color: white;
+}
+.content-wrap {
+  padding: 20px;
+  margin-bottom: 20px;
+  background: white;
+}
+aside {
+  padding: 20px;
+  margin-bottom: 20px;
+  background: white;
+  border: 2px solid #FF9100;
+}
+footer {
+  font-family: OpenSans-Bold;
+  font-weight: 200;
+  padding: 20px;
+  color: black;
+  background-image: url("Фон.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: space-between;
+}
+
+.description {
+	color: #2E2E2E;
+	line-height: 35px;
+}
+
+.ftr {
+	margin-left: 150px;
+	max-width: 1300px; 
+}
+
+.main_footer {
+  padding: 20px;
+  display: flex;  
+  justify-content: space-between;
+  width: 900px;
+}
+
+.logo {
+  max-width: 270px;
+}
+
+.messege {
+	display: flex;
+	justify-content: space-around;
+	width: 200px;
+}
+
+.back_m {
+	color: #FFFFFF;
+}
+
+.mail {
+ display: flex; 
+ align-items: center;
+}
+
+.email {
+  color: #69C8C6;
+  margin-left: 10px;
+}
+
+.phone {
+  margin-left: 10px;
+}
+
+.number {
+  display: flex; 
+  align-items: center;
+}
+
+.opinion {
+  max-width: 450px;
+}
+
+.mf {
+	margin-left: 20px;	
+}
+
+.vk_cont {
+	margin-left: 35%;	
+}
+
+.footer_2 {
+  padding: 20px;
+  display: flex;  
+  color: #C1C1C1;
+  justify-content: space-between;
+}
+
+@media (min-width:768px) {
+  .main-content {display: flex;}
+  .content-wrap {
+    width: calc(100% - 300px);
+    margin-right: 20px;
+    
+  }
+  aside {width: 300px;}
+}
